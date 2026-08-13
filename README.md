@@ -41,10 +41,6 @@ disease-predictor/
 ├── predict.py              # Prediction engine (model loading, inference, severity)
 ├── train_model.py          # Model training script
 │
-├── data/
-│   ├── disease_dataset.csv # Training dataset (symptom–disease pairs)
-│   └── disease_info.csv    # Disease metadata (descriptions, precautions, doctors)
-│
 ├── model/
 │   ├── disease_model.pkl   # Trained Logistic Regression model
 │   ├── label_encoder.pkl   # Label encoder for disease class names
@@ -52,14 +48,6 @@ disease-predictor/
 │
 ├── outputs/
 │   └── model_metrics.txt   # Full classification report for all 3 trained models
-│
-├── history/
-│   └── prediction_log.csv  # Auto-generated prediction history log
-│
-└── tests/
-    ├── test_predict.py      # Unit tests for prediction logic
-    ├── test_train_model.py  # Integration tests for training pipeline
-    └── test_app.py          # UI tests using Streamlit AppTest
 ```
 
 ---
