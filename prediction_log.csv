@@ -1,0 +1,3 @@
+timestamp,symptoms,predicted_disease,severity,risk_level,is_emergency
+2026-07-21 03:21:46,"Fever, Cough, Fatigue",teething syndrome,Medium,Unknown,False
+2026-07-21 03:21:50,"Fever, Cough, Fatigue",teething syndrome,Medium,Unknown,False
